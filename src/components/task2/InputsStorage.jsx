@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Login from "./Login";
 import styled from "styled-components";
-import googlePhoto from "../assets/icons/GoogleIcon.svg";
-import image from "../assets/images/bgImage.png";
+import googlePhoto from "../../assets/icons/GoogleIcon.svg";
+import image from "../../assets/images/bgImage.png";
 
 const InputsStorage = () => {
   const [login, setLogin] = useState("");
